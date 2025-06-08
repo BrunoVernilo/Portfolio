@@ -217,16 +217,13 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: var(--gradient-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    color: white;
-    font-size: 4rem;
-    font-weight: 700;
+    object-fit: cover; 
+    object-position: center; 
     box-shadow: var(--shadow-lg);
+    background: var(--gradient-primary);
+    padding: 2px;
 }
+
 
 .about-text p {
     margin-bottom: 1.5rem;
